@@ -36,6 +36,7 @@ public class TorpedoStore {
     boolean success = false;
 
     // simulate random overheating of the launcher bay which prevents firing
+    //hamburger
     Random generator = new Random(System.currentTimeMillis());
     double r = generator.nextDouble();
 
